@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample COD Webpage</title>
+
+    <style>
+       * {
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+       } 
+       img {
+        align-self: left;
+        justify-self: left;
+        border-radius: 300px;
+        height: 300px;
+        margin-left: 70px;
+        margin-right: 40px;
+       }
+
+       body {
+        display: flex;
+        min-height: 32.5vh;
+        min-inline-size: 32.5vh;
+        background: #27282c;
+        justify-content: right;
+        align-items: center; 
+        background: url('plain.png') no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+       }
+
+       a {
+        position: relative;
+        color: #FFF;
+        background: #FFF;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.5em;
+        letter-spacing: 0.1em;
+        padding: 10px 30px 10px 30px;
+        font-weight: 400;
+        transition: 0.5s;
+        margin-right: 14px;
+    
+       }
+       a:hover {
+        background: var(--clr);
+        color: var(--clr);
+        letter-spacing: 0.25em;
+        box-shadow: 0 0 35px var(--clr);
+       }
+
+       a::before {
+        
+        content: '';
+        inset: 2px;
+        position: absolute;
+        background: #27282c;
+        }
+
+       a span {
+        position: relative;
+        z-index: 1;
+       }
+
+       
+
+        
+    </style>
+
+</head>
+<body>        
+
+        <img src="channels4_profile.jpg">
+
+        <nav class="navbar">
+            <a href="https://www.youtube.com/@darshplaysnow" style="--clr:#E10302"><span>Youtube</span></a>
+        </nav>
+        <nav>
+            <a href="https://t.me/darshplaysnow" style="--clr:#1e9bff"><span>Telegram</span></a>
+        </nav>
+        <nav>
+            <a href="https://www.chess.com/member/darshisnoob" style="--clr:#00E100"><span>Chess.com</span></a>
+        </nav>
+        <nav>
+            <a href="https://discord.gg/R5TkpNY3" style="--clr:#7D5AFA"><span>Discord</span></a>
+        </nav>
+        <nav>
+            <a href="https://lichess.org/@/PatelDarsh/perf" style="--clr:#E1E1E1"><span>Lichess</span></a>
+        </nav>
+
+
+
+</body>
+</html>
